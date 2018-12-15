@@ -4,12 +4,14 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { ProductRoutingModule } from './product-routing.module';
 import { ProductComponent } from './product.component';
+import { FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   imports: [
     ProductRoutingModule,
     ChartsModule,
-    BsDropdownModule
+    BsDropdownModule,
+    ReactiveFormsModule
   ],
   declarations: [ ProductComponent ]
 })

@@ -175,6 +175,7 @@ export const navItems = [
   {
     name: 'Product',
     url: '/product',
+    icon: 'basket-loaded'
   },
   {
     name: 'Widgets',
